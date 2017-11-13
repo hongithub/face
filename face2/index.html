@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/brfv4_examples_theme.css">
+	<title>超越现实的脸brfv4 - HTML5/Javascript人脸跟踪</title>
+
+	<script src="./preloadjs.js"></script>
+	<script src="./BRFv4.js"></script>
+
+	<script>
+		window.onload = brfv4Example.start; //see js/BRFv4Demo.js
+	</script>
+
+	<script>
+	
+
+	</script>
+
+</head>
+
+<body>
+
+<div id="_wrapper">
+
+	<div id="_content">
+		<!-- 视频区 -->
+		<video  id="_webcam"></video>
+		<!-- 图片数据区 -->
+		<canvas id="_imageData"></canvas>
+		<!-- 脸部区 -->
+		<canvas id="_faceSub"></canvas>
+		<!-- t3d引擎展示区 -->
+		<canvas id="_t3d"></canvas>
+		<!-- F3d引擎展示区 -->
+		<canvas id="_f3d"></canvas>
+		<!-- 绘画区 -->
+		<canvas id="_drawing"></canvas>
+	
+	</div>
+
+</div>
+
+
+</body>
+
+</html>
